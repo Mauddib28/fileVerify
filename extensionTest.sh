@@ -45,11 +45,11 @@ for entry in "$searchDir"/*; do
 		grepTest=$(grep $extension $testResponse)	# Test if grep sees the respective word in the grep return
 		echo "GrepTest return: $grepTest"
 		if [ "$grepTest" == "" ]; then
-			if [ "$dgb" -eq "1" ]; then
+			if [[ "$dgb" -eq "1" ]]; then
 				echo "No Match!"
-			else
-				let foundMatch+=1
 			fi
+		else
+			let foundMatch+=1
 		fi
 	done
 	# Check to see if any of the extensions had a match
