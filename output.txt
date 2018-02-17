@@ -1,0 +1,61 @@
+Starting file verification test
+Setting up script variable defaults
+Searching for all files in the current directory
+No arguments supplied
+Directory to search is .
+Examining... ./extensionTest.sh
+Array to examine: textfile_extensions
+Passed file: extensionTest.sh
+Passed extension array: textfile_extensions
+	Full Filename: extensionTest.sh
+	Extension check: 
+Value of filePass: 0
+Warning!! Mismatch found:	extensionTest.sh
+	Full Filename: extensionTest.sh
+	Extension check: 
+Value of filePass: 0
+Warning!! Mismatch found:	extensionTest.sh
+	Full Filename: extensionTest.sh
+	Extension check: 
+Value of filePass: 0
+Warning!! Mismatch found:	extensionTest.sh
+Array to examine: pdf_extensions
+Passed file: extensionTest.sh
+Passed extension array: pdf_extensions
+	Full Filename: extensionTest.sh
+	Extension check: 
+Value of filePass: 0
+Warning!! Mismatch found:	extensionTest.sh
+Matches found: 0
+Examining... ./notes.gpg
+Array to examine: textfile_extensions
+Passed file: notes.gpg
+Passed extension array: textfile_extensions
+	Full Filename: notes.gpg
+	Extension check: 
+Value of filePass: 0
+Warning!! Mismatch found:	notes.gpg
+	Full Filename: notes.gpg
+	Extension check: 
+Value of filePass: 0
+Warning!! Mismatch found:	notes.gpg
+	Full Filename: notes.gpg
+	Extension check: 
+Value of filePass: 0
+Warning!! Mismatch found:	notes.gpg
+Array to examine: pdf_extensions
+Passed file: notes.gpg
+Passed extension array: pdf_extensions
+	Full Filename: notes.gpg
+	Extension check: 
+Value of filePass: 0
+Warning!! Mismatch found:	notes.gpg
+Matches found: 0
+Examining... ./output.txt
+Array to examine: textfile_extensions
+Passed file: output.txt
+Passed extension array: textfile_extensions
+	Full Filename: output.txt
+	Extension check: txt
+	Extensions matched!
+Test Response: ./testFile.output
