@@ -68,11 +68,12 @@ declare -a image_extensions=('png' 'jpeg');
 declare -a audio_extensions=('wav' 'mp3');
 declare -a video_extensions=('mp4');
 declare -a script_extensions=('exe' 'sh' 'py');
+declare -a encrypt_extensions=('gpg');
 # Create array of arrays in bash? May not be possible at all | Can not do via names of arrays, but can build from array contents
-declare -a extensionArray=(textfile_extensions pdf_extensions)
+declare -a extensionArray=(textfile_extensions pdf_extensions image_extensions audio_extensions video_extensions script_extensions encrypt_extensions)
 #declare -a extensionArray=("${textfile_extensions[@]}" "${pdf_extensions[@]}")
 # Creating an array of keywords for 'file' command matching
-declare -a testFileResponses=('text' 'executable');
+declare -a testFileResponses=('text' 'executable' 'PGP');
 
 echo "Searching for all files in the current directory"
 if [ $# -eq 0 ]; then		# No arguemnts suppled
